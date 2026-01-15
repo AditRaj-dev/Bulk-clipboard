@@ -91,15 +91,20 @@ python --version
 
 ---
 
+
 ### 2️⃣ Install Python Dependencies
+
+You can install all required dependencies automatically by running:
+
+```sh
+python install_deps.py
+```
+
+Alternatively, you can install them manually:
 
 ```sh
 pip install openpyxl pyperclip keyboard
 ```
-**OR**
-run the ```sh
-install_deps.py
-``` file
 
 > ⚠️ The `keyboard` library may require administrator privileges on Windows.
 
