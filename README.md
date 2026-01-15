@@ -96,6 +96,10 @@ python --version
 ```sh
 pip install openpyxl pyperclip keyboard
 ```
+**OR**
+run the ```sh
+install_deps.py
+``` file
 
 > ⚠️ The `keyboard` library may require administrator privileges on Windows.
 
