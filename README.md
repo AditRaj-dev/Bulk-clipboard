@@ -2,32 +2,30 @@
 
 A Windows desktop app for automating Excel clipboard tasks using a GUI built with Tkinter. Includes features for managing Excel files, clipboard operations, and automation scripts.
 
-## Features
-- Excel file management (openpyxl)
-- Clipboard automation (pyperclip, keyboard)
-- GUI interface (Tkinter)
-- Automation scripts and helpers
+
+
 
 ## Installation
-1. Clone or download this repository.
-2. Install dependencies:
-   - Recommended: Run the install script:
-     ```sh
-     python install_deps.py
-     ```
-   - Or manually:
-     ```sh
-     pip install -r requirements.txt
-     ```
-
-## Usage
-Start the application:
 ```sh
 python app.py
 ```
 
 ## Packaging as EXE
 To create a standalone Windows executable:
+## Usage
+Start the application:
+```sh
+python app.py
+```
+
+## How to Operate
+- Launch the app to open the main window.
+- Use the interface to select or create Excel files.
+- Use buttons and menus to copy, paste, and automate Excel clipboard tasks.
+- Enter or paste data into fields as needed.
+- Automation features allow quick row processing and clipboard management.
+- Changes are saved automatically to the selected Excel file.
+- Refer to on-screen instructions or tooltips for more help.
 1. Install PyInstaller:
    ```sh
    pip install pyinstaller
